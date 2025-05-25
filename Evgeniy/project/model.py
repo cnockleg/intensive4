@@ -25,7 +25,7 @@ class Model():
     def predict(self, text: str):
         # self.model.eval()
         with torch.no_grad():
-            emb = self.sbert.encode(text, convert_to_tensor=True).unsqueeze(0)  # добавляем batch dimension
+            emb = self.sbert.encode(text, convert_to_tensor=True).unsqueeze(0)  
             preds = self.model(emb).cpu().numpy()[0]
             preds_bin = (preds >= self.threshold).astype(int)
             predicted_tags = [label for label, pred in zip(self.labels, preds_bin) if pred == 1]

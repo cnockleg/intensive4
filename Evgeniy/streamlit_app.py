@@ -1,10 +1,10 @@
 import pandas as pd
 import streamlit as st
-from model import Model
+from project.model import Model
 
 @st.cache_resource
 def load_model():
-    return Model(r'intensiv-3-main\intensive4\intensive4_evgeniy\final_model.pth')
+    return Model(r'intensive4_evgeniy\final_model.pth')
 
 model = load_model()
 
