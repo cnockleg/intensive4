@@ -14,7 +14,7 @@
 
 Logistic Regression,
 RandomForest,
-MultiLabelClassifier,
+MultiLabelClassifier.
 
 
 🛠️ Используемые технологии
