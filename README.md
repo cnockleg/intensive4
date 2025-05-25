@@ -12,19 +12,19 @@
 
 Разработать модель, которая на основе текста комментария автоматически определяет, какие аспекты работы управляющей компании были упомянуты положительно.
 
-Logistic Regression
-RandomForest
-MultiLabelClassifier
+Logistic Regression,
+RandomForest,
+MultiLabelClassifier,
 
 
 🛠️ Используемые технологии
 
-Python, Jupyter Notebook
-Pandas, NumPy
-LogisticRegression, RandomForest, MultiLabelClassifier
-Label Studio, Microsoft Excel
-Joblib (сериализация модели)
-Matplotlib (визуализация ROC-кривых)
+Python, Jupyter Notebook,
+Pandas, NumPy,
+LogisticRegression, RandomForest, MultiLabelClassifier,
+Label Studio, Microsoft Excel,
+Joblib (сериализация модели),
+Matplotlib (визуализация ROC-кривых).
 
 📌 Выводы
 
